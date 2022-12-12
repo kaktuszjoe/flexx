@@ -1,0 +1,39 @@
+#tartalom{float: left;
+    width: 49%;
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    gap: 1rem;
+}
+#sidebar{
+    float: left;
+    width: 24%;
+
+}
+#rightside{
+    float: left;
+    width: 24%;
+}
+.box{ width: fit-content;
+    
+}
+.pont{
+    border-bottom: 1px dotted white;
+}
+#sidebar{
+    background: url("./pics/bg-menu.jpg");
+    background-repeat: no-repeat;
+    color: white;
+}
+.cim{
+    border-bottom: 1px solid grey;
+    color: grey;
+}
+#header{
+    color:greenyellow;
+    font-family: Verdana, Tahoma, sans-serif;
+    background-color: white;
+    text-align: center;
+    border-bottom: 1px dotted grey;
+    border-top: 1px dotted grey;
+
+}
